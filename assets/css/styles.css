@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nav-link {
+  font-size: 13px;
+}
+
+@media (max-width:768px) {
+  .navbar > .container-fluid {
+    align-items: flex-start;
+  }
+}
+
+@media (min-width:768px) {
+  .main-nav-items {
+    display: flex;
+  }
+}
+
+.cart-box {
+  position: absolute;
+  width: 300px;
+  right: 10px;
+  background-color: #fff;
+}
+
+@media (max-width:768px) {
+  .cart-box {
+    right: -50px;
+    top: 80px;
+    z-index: 1;
+  }
+}
+
+/* header .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+  border-bottom: 1px solid #333;
+} */
+
+.slider-for .slick-list .slick-track {
+  height: 300px;
+}
+
+.main-content {
+  font-family: 'Kumbh Sans', sans-serif !important;
+}
+
+.main-content h5 {
+  color: #ff760f;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.main-heading {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.main-text {
+  font-size: 15px;
+  color: #9c9ea3;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.cancel-price {
+  color: #9c9ea3;
+  font-size: 16px;
+  text-decoration: line-through;
+}
+
+.price-off {
+  background-color: #fcefe6;
+  padding: 5px 10px;
+  color: #ff760f;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.number-product {
+  background-color: #f7f8fd;
+  /*padding: 5px 20px;*/
+  /*margin: 15px 0;*/
+}
+
+@media (max-width:768px) {
+  .number-product {
+    padding: 5px 20px;
+    margin: 15px 0;
+  }
+}
+
+.number-product .btn {
+  color: #ff760f;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 24px;
+}
+
+.add-cart-btn {
+  background-color: #ff760f;
+  width: 100%;
+  color: #fff;
+}
+
+.add-cart-btn:hover {
+  color: #fff;
+}
+
+.btn-check:focus + .btn, .btn:focus {
+  box-shadow: none;
+}
+
+.slick-dots li button {
+  margin-top: 15px;
+}
+
